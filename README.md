@@ -4,7 +4,7 @@
 
 NOTE: This is a work in progress. Proper micro-BTX layout will be uploaded in some time
 
-The Neotron Pico is based around the idea of the [Neotron-32](https://github.com/neotron-compute/Neotron-32-Hardware), but using a low-cost Raspberry Pi Pico instead of a Texas Instuments Tiva-C Launchpad. It also stretches out to full micro-ATX size, and adds more expansion slots so that you can easily design and add your own peripherals.
+The Neotron Pico BTX is based around the idea of the [Neotron-32](https://github.com/neotron-compute/Neotron-32-Hardware), but using a low-cost Raspberry Pi Pico instead of a Texas Instuments Tiva-C Launchpad. It also stretches out to full micro-BTX size, and adds more expansion slots so that you can easily design and add your own peripherals.
 
 ![3D PCB View](./neotron-pico.jpg)
 
@@ -16,7 +16,7 @@ The Raspberry Pi Pico is the core of the Neotron Pico. It uses PIO statemachines
 
 ## Software
 
-The Neotron Pico is designed to run the Neotron OS - a CP/M or MS-DOS alike OS written in Rust. But, being open-hardware, you can program your Neotron Pico to do pretty much anything.
+The Neotron Pico BTX is designed to run the Neotron OS - a CP/M or MS-DOS alike OS written in Rust. But, being open-hardware, you can program your Neotron Pico to do pretty much anything.
 
 ## Specs
 
