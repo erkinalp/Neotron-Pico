@@ -19,9 +19,37 @@ def analyze_components(pcb_file):
     board = pcbnew.LoadBoard(pcb_file)
     
     category_a = ["Pico", "STM32F0", "MCP23S17", "TLV320AIC23B", "TPD7S019", "THS7316", 
-                 "74HC138", "DS1307Z+", "PCIe", "PCI_Express", "SD_Card_Det"]
+                 "74HC138", "DS1307Z+", "PCIe", "PCI_Express", "SD_Card_Det", "AMS1117", 
+                 "STX-4335", "DC-DC"]
     category_b = ["Resistor", "Capacitor", "Inductor", "Diode", "LED", "Transistor", "Ferrite"]
     category_c = ["DE15HD", "Jack", "SD_Card", "Conn_", "MountingHole", "USB", "Power"]
+    
+    prefix_category_map = {
+        # Category A: Non-mirrorable components
+        "U": "A_non_mirrorable",  # ICs, processors, etc.
+        
+        # Category B: Mirrorable components
+        "R": "B_mirrorable",      # Resistors
+        "C": "B_mirrorable",      # Capacitors
+        "L": "B_mirrorable",      # Inductors
+        "FB": "B_mirrorable",     # Ferrite beads
+        "D": "B_mirrorable",      # Diodes
+        "Q": "B_mirrorable",      # Transistors
+        "Y": "B_mirrorable",      # Crystals
+        "BT": "B_mirrorable",     # Batteries
+        "F": "B_mirrorable",      # Fuses
+        "NT": "B_mirrorable",     # Net ties
+        "TP": "B_mirrorable",     # Test points
+        "SW": "B_mirrorable",     # Switches
+        
+        # Category C: Position-critical components
+        "J": "C_position_critical",  # Connectors
+        "H": "C_position_critical",  # Mounting holes
+        
+        # Other components
+        "LOGO": "B_mirrorable",   # Logos (can be mirrored)
+        "JP": "B_mirrorable"      # Jumpers
+    }
     
     component_types = {}
     category_counts = {
@@ -60,11 +88,17 @@ def analyze_components(pcb_file):
                     category = "B_mirrorable"
                     break
         
+        if category == "unknown":
+            ref_prefix = ''.join([c for c in reference if not c.isdigit()])
+            if ref_prefix in prefix_category_map:
+                category = prefix_category_map[ref_prefix]
+        
         ref_prefix = ''.join([c for c in reference if not c.isdigit()])
         if ref_prefix not in component_types:
             component_types[ref_prefix] = {
                 "count": 0,
-                "examples": []
+                "examples": [],
+                "default_category": prefix_category_map.get(ref_prefix, "unknown")
             }
         
         component_types[ref_prefix]["count"] += 1
