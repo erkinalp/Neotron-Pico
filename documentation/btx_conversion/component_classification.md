@@ -54,29 +54,53 @@ The actual implementation resulted in the following component counts:
 
 | Category | Count | Description |
 |----------|-------|-------------|
-| A_non_mirrorable | 8 | Components repositioned without mirroring |
-| B_mirrorable | 6 | Components mirrored in position and orientation |
-| C_position_critical | 25 | Components positioned according to microBTX specifications |
-| Uncategorized | 203 | Components handled as mirrorable by default |
+| A_non_mirrorable | 16 | Components repositioned without mirroring |
+| B_mirrorable | 176 | Components mirrored in position and orientation |
+| C_position_critical | 50 | Components positioned according to microBTX specifications |
+
+### Category A: Non-mirrorable Components (16)
+
+These components were repositioned without mirroring to maintain pin orientation:
 
 | Component Type | Count | Examples | Handling |
 |----------------|-------|----------|----------|
-| R | 96 | R809, R804, R811, ... | Mirrored position and orientation |
-| C | 50 | C1301, C1302, C1202, ... | Mirrored position and orientation |
-| NT | 12 | NT912, NT911, NT907, ... | Mirrored position and orientation |
-| JP | 8 | JP201, JP1001, JP403, ... | Mirrored position and orientation |
-| Q | 7 | Q1303, Q201, Q1302, ... | Mirrored position and orientation |
-| TP | 6 | TP101, TP102, TP103, ... | Mirrored position and orientation |
-| J | 5 | J903, J905, J902, ... | Mirrored position and orientation |
-| U | 5 | U1302, U1301, U802, ... | Mirrored position and orientation |
-| LOGO | 3 | LOGO103, LOGO102, LOGO101 | Mirrored position and orientation |
-| FB | 2 | FB802, FB801 | Mirrored position and orientation |
-| Y | 2 | Y1201, Y801 | Mirrored position and orientation |
-| D | 2 | D1302, D1301 | Mirrored position and orientation |
-| SW | 2 | SW1001, SW1002 | Mirrored position and orientation |
-| BT | 1 | BT1201 | Mirrored position and orientation |
-| F | 1 | F1301 | Mirrored position and orientation |
-| L | 1 | L1301 | Mirrored position and orientation |
+| U (ICs) | 13 | U201 (Pico), U1001 (STM32F0), U1302 (AMS1117-3.3) | Repositioned without mirroring, rotated 180° if needed |
+| LOGO | 3 | LOGO103, LOGO102, LOGO101 | Repositioned without mirroring to maintain proper appearance |
+
+### Category B: Mirrorable Components (179)
+
+These components were mirrored in both position and orientation:
+
+| Component Type | Count | Examples | Handling |
+|----------------|-------|----------|----------|
+| R (Resistors) | 96 | R809, R804, R811 | Mirrored position and orientation |
+| C (Capacitors) | 50 | C1301, C1302, C1202 | Mirrored position and orientation |
+| NT (Net Ties) | 12 | NT912, NT911, NT907 | Mirrored position and orientation |
+| Q (Transistors) | 7 | Q1303, Q201, Q1302 | Mirrored position and orientation |
+| TP (Test Points) | 6 | TP101, TP102, TP103 | Mirrored position and orientation |
+
+| FB (Ferrite Beads) | 2 | FB802, FB801 | Mirrored position and orientation |
+| Y (Crystals) | 2 | Y1201, Y801 | Mirrored position and orientation |
+| D (Diodes) | 2 | D1302, D1301 | Mirrored position and orientation |
+| SW (Switches) | 2 | SW1001, SW1002 | Mirrored position and orientation |
+| BT (Batteries) | 1 | BT1201 | Mirrored position and orientation |
+| F (Fuses) | 1 | F1301 | Mirrored position and orientation |
+| L (Inductors) | 1 | L1301 | Mirrored position and orientation |
+
+### Category C: Position-critical Components (50)
+
+These components were positioned according to microBTX specifications:
+
+| Component Type | Count | Examples | Handling |
+|----------------|-------|----------|----------|
+| J (Connectors) | 23 | J903 (Expansion Slot), J803 (Conn_01x04) | Positioned according to microBTX spec |
+| H (Mounting Holes) | 7 | H101, H105, H102 | Recreated according to microBTX spec (ATX mounting holes don't correspond to BTX positions) |
+| JP (Jumpers) | 8 | JP201, JP1001, JP403 | Positioned according to microBTX spec |
+| SD Card Slot | 1 | SD Card | Positioned according to microBTX spec |
+| VGA Connector | 1 | DE15HD | Positioned according to microBTX spec |
+| Audio Jacks | 2 | Audio In/Out | Positioned according to microBTX spec |
+| USB Ports | 2 | USB | Positioned according to microBTX spec |
+| Power Connector | 1 | Power | Positioned according to microBTX spec |
 ## DRC Considerations
 
 Special attention was paid to component placement to avoid Design Rule Check (DRC) violations:

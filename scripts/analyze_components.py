@@ -47,7 +47,7 @@ def analyze_components(pcb_file):
         "H": "C_position_critical",  # Mounting holes
         
         # Other components
-        "LOGO": "B_mirrorable",   # Logos (can be mirrored)
+        "LOGO": "A_non_mirrorable",   # Logos (should not be mirrored to avoid awkward appearance)
         "JP": "B_mirrorable"      # Jumpers
     }
     
