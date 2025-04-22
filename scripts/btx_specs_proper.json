@@ -1,0 +1,87 @@
+{
+  "original_dimensions": {
+    "width": 244,
+    "height": 244
+  },
+  "target_dimensions": {
+    "width": 264,
+    "height": 267
+  },
+  "component_categories": {
+    "A_non_mirrorable": [
+      "Pico",
+      "STM32F0",
+      "MCP23S17",
+      "TLV320AIC23B",
+      "TPD7S019",
+      "THS7316",
+      "74HC138",
+      "DS1307Z+",
+      "PCIe",
+      "PCI_Express",
+      "SD_Card_Det"
+    ],
+    "B_mirrorable": [
+      "Resistor",
+      "Capacitor",
+      "Inductor",
+      "Diode",
+      "LED",
+      "Transistor",
+      "Ferrite"
+    ],
+    "C_position_critical": [
+      "DE15HD",
+      "Jack",
+      "SD_Card",
+      "Conn_",
+      "MountingHole",
+      "USB",
+      "Power"
+    ]
+  },
+  "connector_positions": {
+    "USB": {
+      "x": 240,
+      "y": 50
+    },
+    "Audio": {
+      "x": 220,
+      "y": 50
+    },
+    "VGA": {
+      "x": 200,
+      "y": 50
+    },
+    "Power": {
+      "x": 180,
+      "y": 30
+    }
+  },
+  "mounting_holes": {
+    "hole1": {
+      "x": 10,
+      "y": 10
+    },
+    "hole2": {
+      "x": 10,
+      "y": 257
+    },
+    "hole3": {
+      "x": 254,
+      "y": 10
+    },
+    "hole4": {
+      "x": 254,
+      "y": 257
+    }
+  },
+  "drc_settings": {
+    "clearance": 0.2,
+    "track_width": 0.25,
+    "via_diameter": 0.8,
+    "via_drill": 0.4,
+    "min_hole_clearance": 0.25,
+    "min_copper_edge_clearance": 0.3
+  }
+}
