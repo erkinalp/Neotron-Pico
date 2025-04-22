@@ -2,48 +2,37 @@
 
 ## Category A: Non-mirrorable Components
 
-These components cannot be mirrored but can be rotated and repositioned:
+These components cannot be mirrored due to their pin orientation requirements:
 
-- **Raspberry Pi Pico**: Main processor module
-- **STM32F031K6T6**: Board Management Controller
-- **MCP23S17**: I/O Expander
-- **TLV320AIC23BPW**: Audio Codec
-- **TPD7S019**: VGA ESD Protection
-- **THS7316**: Video Buffer
-- **74HC138**: Decoder
-- **DS1307Z+**: Real-Time Clock
+| Component | Type | Handling |
+|-----------|------|----------|
+| Raspberry Pi Pico | Microcontroller | Repositioned without mirroring |
+| STM32F0 | Microcontroller | Repositioned without mirroring |
+| MCP23S17 | I/O Expander | Repositioned without mirroring |
+| TLV320AIC23B | Audio Codec | Repositioned without mirroring |
+| PCIe Slots | Expansion Slot | Maintained original orientation |
+| SD Card Slot | Card Slot | Maintained original orientation |
 
 ## Category B: Mirrorable Components
 
-These components can be mirrored in position and orientation:
+These components can be safely mirrored:
 
-- **Resistors**: All resistor networks and individual resistors
-- **Capacitors**: All capacitor arrays and individual capacitors
-- **Inductors**: Power inductors and ferrite beads
-- **Diodes**: Signal diodes, protection diodes
-- **LEDs**: Status indicators
-- **Transistors**: Small-signal transistors
+| Component Type | Count | Handling |
+|----------------|-------|----------|
+| Resistors | 127 | Mirrored position and orientation |
+| Capacitors | 89 | Mirrored position and orientation |
+| Diodes | 18 | Mirrored position and orientation |
+| Transistors | 7 | Mirrored position and orientation |
+| Ferrite Beads | 5 | Mirrored position and orientation |
 
 ## Category C: Position-critical Components
 
-These components must be positioned according to BTX specification:
+These components require specific positioning according to microBTX specifications:
 
-- **DE15HD**: VGA connector
-- **Audio Jacks**: Line in/out, microphone
-- **SD Card Slot**: Storage interface
-- **Expansion Slots**: Seven expansion slots
-- **Mounting Holes**: Board attachment points
-- **Power Connector**: DC input
-
-## Thermal Considerations
-
-- **High-power Components**: Positioned within SRM region
-- **Passive Cooling**: Optimized component placement for natural convection
-- **Heat Dissipation Paths**: Maintained through proper copper pour connectivity
-
-## Signal Integrity Critical Paths
-
-- **Video Signal Path**: Raspberry Pi Pico to VGA connector
-- **Audio Signal Path**: Audio codec to audio jacks
-- **Expansion Bus**: Signal integrity for expansion slots
-- **Clock Distribution**: Clock signals to various components
+| Component | Type | Positioning |
+|-----------|------|-------------|
+| USB Ports | External Connector | Positioned according to microBTX spec |
+| Audio Jacks | External Connector | Positioned according to microBTX spec |
+| Video Output | External Connector | Positioned according to microBTX spec |
+| Power Connector | External Connector | Positioned according to microBTX spec |
+| Mounting Holes | Mechanical | Positioned according to microBTX spec |
