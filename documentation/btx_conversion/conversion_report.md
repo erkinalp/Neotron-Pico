@@ -17,7 +17,8 @@ Components were classified into three categories:
 #### Category A: Non-mirrorable Components
 - Multi-pin ICs (Raspberry Pi Pico, STM32F0, MCP23S17, TLV320AIC23B)
 - Expansion slots (PCIe, etc.)
-- These components were repositioned without mirroring to maintain their pin orientation.
+- Logos and visual elements
+- These components were repositioned without mirroring to maintain their pin orientation and appearance.
 
 #### Category B: Mirrorable Components
 - Passive components (resistors, capacitors)
@@ -46,10 +47,10 @@ Design Rule Check (DRC) violations were addressed during the conversion process:
 
 ## Component Statistics
 
-- Category A (Non-mirrorable): 8 components
-- Category B (Mirrorable): 6 components
-- Category C (Position-critical): 25 components
-- Uncategorized: 203 components
+- Category A (Non-mirrorable): 16 components
+- Category B (Mirrorable): 179 components
+- Category C (Position-critical): 50 components
+- Total: 245 components
 
 ## Verification
 
