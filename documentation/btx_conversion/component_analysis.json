@@ -1,0 +1,1357 @@
+{
+  "category_counts": {
+    "A_non_mirrorable": 8,
+    "B_mirrorable": 6,
+    "C_position_critical": 25,
+    "unknown": 203
+  },
+  "component_types": {
+    "LOGO": {
+      "count": 3,
+      "examples": [
+        "LOGO103: OSHW Logo",
+        "LOGO102: Kicad Logo",
+        "LOGO101: Neotron Logo"
+      ]
+    },
+    "H": {
+      "count": 7,
+      "examples": [
+        "H101: MountingHole_Pad",
+        "H105: MountingHole_Pad",
+        "H102: MountingHole_Pad"
+      ]
+    },
+    "J": {
+      "count": 23,
+      "examples": [
+        "J903: Neotron-Expansion-Slot",
+        "J803: Conn_01x04",
+        "J1004: Conn_01x02"
+      ]
+    },
+    "C": {
+      "count": 50,
+      "examples": [
+        "C1301: 100u",
+        "C1302: 100u",
+        "C1202: DNF"
+      ]
+    },
+    "FB": {
+      "count": 2,
+      "examples": [
+        "FB802: 330R@100MHz",
+        "FB801: 330R@100MHz"
+      ]
+    },
+    "U": {
+      "count": 13,
+      "examples": [
+        "U1302: AMS1117-3.3",
+        "U201: Pico",
+        "U1001: STM32F030K6T6"
+      ]
+    },
+    "Y": {
+      "count": 2,
+      "examples": [
+        "Y1201: 32,768 Hz",
+        "Y801: 12M 20pF"
+      ]
+    },
+    "BT": {
+      "count": 1,
+      "examples": [
+        "BT1201: CR2032"
+      ]
+    },
+    "R": {
+      "count": 96,
+      "examples": [
+        "R809: 4k7",
+        "R804: 100k",
+        "R811: 2k"
+      ]
+    },
+    "JP": {
+      "count": 8,
+      "examples": [
+        "JP201: Jumper",
+        "JP1001: Jumper",
+        "JP403: Bridge"
+      ]
+    },
+    "F": {
+      "count": 1,
+      "examples": [
+        "F1301: 32V 2A PTC"
+      ]
+    },
+    "L": {
+      "count": 1,
+      "examples": [
+        "L1301: 22uH"
+      ]
+    },
+    "Q": {
+      "count": 7,
+      "examples": [
+        "Q1303: SS8050",
+        "Q201: DMG2305UX",
+        "Q1302: SS8550"
+      ]
+    },
+    "TP": {
+      "count": 6,
+      "examples": [
+        "TP101: TestPoint",
+        "TP102: TestPoint",
+        "TP103: TestPoint"
+      ]
+    },
+    "NT": {
+      "count": 12,
+      "examples": [
+        "NT912: NetTie_2",
+        "NT911: NetTie_2",
+        "NT907: NetTie_2"
+      ]
+    },
+    "D": {
+      "count": 8,
+      "examples": [
+        "D1302: ZMM5V6",
+        "D1301: ZMM5V6",
+        "D1001: LED"
+      ]
+    },
+    "SW": {
+      "count": 2,
+      "examples": [
+        "SW1001: SW_Push",
+        "SW1002: SW_Push"
+      ]
+    }
+  },
+  "detailed_components": {
+    "A_non_mirrorable": [
+      {
+        "reference": "U201",
+        "value": "Pico",
+        "prefix": "U"
+      },
+      {
+        "reference": "U1001",
+        "value": "STM32F030K6T6",
+        "prefix": "U"
+      },
+      {
+        "reference": "U402",
+        "value": "TPD7S019",
+        "prefix": "U"
+      },
+      {
+        "reference": "U401",
+        "value": "THS7316",
+        "prefix": "U"
+      },
+      {
+        "reference": "U801",
+        "value": "TLV320AIC23BPW",
+        "prefix": "U"
+      },
+      {
+        "reference": "U302",
+        "value": "74HC138",
+        "prefix": "U"
+      },
+      {
+        "reference": "U301",
+        "value": "MCP23S17_SO",
+        "prefix": "U"
+      },
+      {
+        "reference": "U1201",
+        "value": "DS1307Z+",
+        "prefix": "U"
+      }
+    ],
+    "B_mirrorable": [
+      {
+        "reference": "D1001",
+        "value": "LED",
+        "prefix": "D"
+      },
+      {
+        "reference": "D1002",
+        "value": "LED",
+        "prefix": "D"
+      },
+      {
+        "reference": "D303",
+        "value": "LED",
+        "prefix": "D"
+      },
+      {
+        "reference": "D301",
+        "value": "LED",
+        "prefix": "D"
+      },
+      {
+        "reference": "D302",
+        "value": "LED",
+        "prefix": "D"
+      },
+      {
+        "reference": "D304",
+        "value": "LED",
+        "prefix": "D"
+      }
+    ],
+    "C_position_critical": [
+      {
+        "reference": "H101",
+        "value": "MountingHole_Pad",
+        "prefix": "H"
+      },
+      {
+        "reference": "H105",
+        "value": "MountingHole_Pad",
+        "prefix": "H"
+      },
+      {
+        "reference": "H102",
+        "value": "MountingHole_Pad",
+        "prefix": "H"
+      },
+      {
+        "reference": "H106",
+        "value": "MountingHole_Pad",
+        "prefix": "H"
+      },
+      {
+        "reference": "H103",
+        "value": "MountingHole_Pad",
+        "prefix": "H"
+      },
+      {
+        "reference": "H104",
+        "value": "MountingHole_Pad",
+        "prefix": "H"
+      },
+      {
+        "reference": "H107",
+        "value": "MountingHole_Pad",
+        "prefix": "H"
+      },
+      {
+        "reference": "J803",
+        "value": "Conn_01x04",
+        "prefix": "J"
+      },
+      {
+        "reference": "J1004",
+        "value": "Conn_01x02",
+        "prefix": "J"
+      },
+      {
+        "reference": "J1005",
+        "value": "Conn_01x02",
+        "prefix": "J"
+      },
+      {
+        "reference": "J1301",
+        "value": "Jack 2.1mm 6.3mm",
+        "prefix": "J"
+      },
+      {
+        "reference": "J1002",
+        "value": "Conn_01x02",
+        "prefix": "J"
+      },
+      {
+        "reference": "J1101",
+        "value": "SD_Card",
+        "prefix": "J"
+      },
+      {
+        "reference": "J1003",
+        "value": "Conn_01x02",
+        "prefix": "J"
+      },
+      {
+        "reference": "J801",
+        "value": "Conn_01x04",
+        "prefix": "J"
+      },
+      {
+        "reference": "J802",
+        "value": "Conn_02x05",
+        "prefix": "J"
+      },
+      {
+        "reference": "J1001",
+        "value": "Conn_01x05",
+        "prefix": "J"
+      },
+      {
+        "reference": "J401",
+        "value": "DE15HD",
+        "prefix": "J"
+      },
+      {
+        "reference": "J907",
+        "value": "Conn_01x09",
+        "prefix": "J"
+      },
+      {
+        "reference": "J908",
+        "value": "Conn_01x09",
+        "prefix": "J"
+      },
+      {
+        "reference": "J1303",
+        "value": "Conn_01x04S",
+        "prefix": "J"
+      },
+      {
+        "reference": "J901",
+        "value": "Conn_01x06",
+        "prefix": "J"
+      },
+      {
+        "reference": "J906",
+        "value": "Conn_01x09",
+        "prefix": "J"
+      },
+      {
+        "reference": "J1302",
+        "value": "Conn_02x02S",
+        "prefix": "J"
+      },
+      {
+        "reference": "J1006",
+        "value": "Conn_01x04",
+        "prefix": "J"
+      }
+    ],
+    "unknown": [
+      {
+        "reference": "LOGO103",
+        "value": "OSHW Logo",
+        "prefix": "LOGO"
+      },
+      {
+        "reference": "LOGO102",
+        "value": "Kicad Logo",
+        "prefix": "LOGO"
+      },
+      {
+        "reference": "LOGO101",
+        "value": "Neotron Logo",
+        "prefix": "LOGO"
+      },
+      {
+        "reference": "J903",
+        "value": "Neotron-Expansion-Slot",
+        "prefix": "J"
+      },
+      {
+        "reference": "C1301",
+        "value": "100u",
+        "prefix": "C"
+      },
+      {
+        "reference": "C1302",
+        "value": "100u",
+        "prefix": "C"
+      },
+      {
+        "reference": "FB802",
+        "value": "330R@100MHz",
+        "prefix": "FB"
+      },
+      {
+        "reference": "U1302",
+        "value": "AMS1117-3.3",
+        "prefix": "U"
+      },
+      {
+        "reference": "Y1201",
+        "value": "32,768 Hz",
+        "prefix": "Y"
+      },
+      {
+        "reference": "BT1201",
+        "value": "CR2032",
+        "prefix": "BT"
+      },
+      {
+        "reference": "C1202",
+        "value": "DNF",
+        "prefix": "C"
+      },
+      {
+        "reference": "R809",
+        "value": "4k7",
+        "prefix": "R"
+      },
+      {
+        "reference": "R804",
+        "value": "100k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R811",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R812",
+        "value": "0R",
+        "prefix": "R"
+      },
+      {
+        "reference": "R810",
+        "value": "4k7",
+        "prefix": "R"
+      },
+      {
+        "reference": "R807",
+        "value": "4k7",
+        "prefix": "R"
+      },
+      {
+        "reference": "R808",
+        "value": "4k7",
+        "prefix": "R"
+      },
+      {
+        "reference": "JP201",
+        "value": "Jumper",
+        "prefix": "JP"
+      },
+      {
+        "reference": "C1003",
+        "value": "10n",
+        "prefix": "C"
+      },
+      {
+        "reference": "C1303",
+        "value": "22u",
+        "prefix": "C"
+      },
+      {
+        "reference": "R1004",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R1001",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R1002",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R1005",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R1007",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "U1301",
+        "value": "DC-DC Module",
+        "prefix": "U"
+      },
+      {
+        "reference": "F1301",
+        "value": "32V 2A PTC",
+        "prefix": "F"
+      },
+      {
+        "reference": "C401",
+        "value": "10u",
+        "prefix": "C"
+      },
+      {
+        "reference": "R401",
+        "value": "75",
+        "prefix": "R"
+      },
+      {
+        "reference": "R402",
+        "value": "75",
+        "prefix": "R"
+      },
+      {
+        "reference": "R403",
+        "value": "75",
+        "prefix": "R"
+      },
+      {
+        "reference": "R404",
+        "value": "DNF",
+        "prefix": "R"
+      },
+      {
+        "reference": "R405",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R406",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "U802",
+        "value": "STX-4335-5BGP-S1",
+        "prefix": "U"
+      },
+      {
+        "reference": "L1301",
+        "value": "22uH",
+        "prefix": "L"
+      },
+      {
+        "reference": "C808",
+        "value": "100u",
+        "prefix": "C"
+      },
+      {
+        "reference": "R801",
+        "value": "100k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R802",
+        "value": "100k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R803",
+        "value": "100k",
+        "prefix": "R"
+      },
+      {
+        "reference": "C806",
+        "value": "10u",
+        "prefix": "C"
+      },
+      {
+        "reference": "FB801",
+        "value": "330R@100MHz",
+        "prefix": "FB"
+      },
+      {
+        "reference": "Y801",
+        "value": "12M 20pF",
+        "prefix": "Y"
+      },
+      {
+        "reference": "C816",
+        "value": "22p",
+        "prefix": "C"
+      },
+      {
+        "reference": "C803",
+        "value": "10u",
+        "prefix": "C"
+      },
+      {
+        "reference": "C802",
+        "value": "10u",
+        "prefix": "C"
+      },
+      {
+        "reference": "C814",
+        "value": "100n",
+        "prefix": "C"
+      },
+      {
+        "reference": "C815",
+        "value": "10u",
+        "prefix": "C"
+      },
+      {
+        "reference": "Q1303",
+        "value": "SS8050",
+        "prefix": "Q"
+      },
+      {
+        "reference": "R1003",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "C402",
+        "value": "220n",
+        "prefix": "C"
+      },
+      {
+        "reference": "J905",
+        "value": "Neotron-Expansion-Slot",
+        "prefix": "J"
+      },
+      {
+        "reference": "R1018",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R1009",
+        "value": "300",
+        "prefix": "R"
+      },
+      {
+        "reference": "R1019",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R1011",
+        "value": "300",
+        "prefix": "R"
+      },
+      {
+        "reference": "R1305",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R1303",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R1302",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "J902",
+        "value": "Neotron-Expansion-Slot",
+        "prefix": "J"
+      },
+      {
+        "reference": "R1006",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "Q201",
+        "value": "DMG2305UX",
+        "prefix": "Q"
+      },
+      {
+        "reference": "R501",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R509",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R505",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R502",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R506",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R503",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R507",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R504",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R508",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R510",
+        "value": "560",
+        "prefix": "R"
+      },
+      {
+        "reference": "R601",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R609",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R605",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R602",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R606",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R603",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R607",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R604",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R608",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R610",
+        "value": "560",
+        "prefix": "R"
+      },
+      {
+        "reference": "R701",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R709",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R705",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R702",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R706",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R707",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R704",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R708",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R710",
+        "value": "560",
+        "prefix": "R"
+      },
+      {
+        "reference": "R703",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "C819",
+        "value": "47p",
+        "prefix": "C"
+      },
+      {
+        "reference": "C817",
+        "value": "22p",
+        "prefix": "C"
+      },
+      {
+        "reference": "J904",
+        "value": "Neotron-Expansion-Slot",
+        "prefix": "J"
+      },
+      {
+        "reference": "TP101",
+        "value": "TestPoint",
+        "prefix": "TP"
+      },
+      {
+        "reference": "TP102",
+        "value": "TestPoint",
+        "prefix": "TP"
+      },
+      {
+        "reference": "TP103",
+        "value": "TestPoint",
+        "prefix": "TP"
+      },
+      {
+        "reference": "TP104",
+        "value": "TestPoint",
+        "prefix": "TP"
+      },
+      {
+        "reference": "TP105",
+        "value": "TestPoint",
+        "prefix": "TP"
+      },
+      {
+        "reference": "R1013",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R1014",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R1015",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R1016",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "JP1001",
+        "value": "Jumper",
+        "prefix": "JP"
+      },
+      {
+        "reference": "Q1302",
+        "value": "SS8550",
+        "prefix": "Q"
+      },
+      {
+        "reference": "C1203",
+        "value": "DNF",
+        "prefix": "C"
+      },
+      {
+        "reference": "U303",
+        "value": "74AHC1G04",
+        "prefix": "U"
+      },
+      {
+        "reference": "NT912",
+        "value": "NetTie_2",
+        "prefix": "NT"
+      },
+      {
+        "reference": "R1101",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "NT911",
+        "value": "NetTie_2",
+        "prefix": "NT"
+      },
+      {
+        "reference": "JP403",
+        "value": "Bridge",
+        "prefix": "JP"
+      },
+      {
+        "reference": "R312",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "C403",
+        "value": "10u",
+        "prefix": "C"
+      },
+      {
+        "reference": "C804",
+        "value": "1u",
+        "prefix": "C"
+      },
+      {
+        "reference": "R308",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "TP1301",
+        "value": "PTH",
+        "prefix": "TP"
+      },
+      {
+        "reference": "R201",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R1017",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "C303",
+        "value": "DNF",
+        "prefix": "C"
+      },
+      {
+        "reference": "C301",
+        "value": "10u",
+        "prefix": "C"
+      },
+      {
+        "reference": "U1303",
+        "value": "HT75xx-1-SOT89",
+        "prefix": "U"
+      },
+      {
+        "reference": "R302",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "C1002",
+        "value": "10u",
+        "prefix": "C"
+      },
+      {
+        "reference": "R301",
+        "value": "0R",
+        "prefix": "R"
+      },
+      {
+        "reference": "J1007",
+        "value": "Double-mini-DIN-6",
+        "prefix": "J"
+      },
+      {
+        "reference": "NT907",
+        "value": "NetTie_2",
+        "prefix": "NT"
+      },
+      {
+        "reference": "R902",
+        "value": "0R",
+        "prefix": "R"
+      },
+      {
+        "reference": "JP404",
+        "value": "Bridge",
+        "prefix": "JP"
+      },
+      {
+        "reference": "NT910",
+        "value": "NetTie_2",
+        "prefix": "NT"
+      },
+      {
+        "reference": "R202",
+        "value": "2k",
+        "prefix": "R"
+      },
+      {
+        "reference": "NT905",
+        "value": "NetTie_2",
+        "prefix": "NT"
+      },
+      {
+        "reference": "C202",
+        "value": "DNF",
+        "prefix": "C"
+      },
+      {
+        "reference": "R1102",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R1301",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R905",
+        "value": "0R",
+        "prefix": "R"
+      },
+      {
+        "reference": "D1302",
+        "value": "ZMM5V6",
+        "prefix": "D"
+      },
+      {
+        "reference": "R1010",
+        "value": "300",
+        "prefix": "R"
+      },
+      {
+        "reference": "Q1001",
+        "value": "2N7002",
+        "prefix": "Q"
+      },
+      {
+        "reference": "NT902",
+        "value": "NetTie_2",
+        "prefix": "NT"
+      },
+      {
+        "reference": "C905",
+        "value": "DNF",
+        "prefix": "C"
+      },
+      {
+        "reference": "R310",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R304",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "C901",
+        "value": "DNF",
+        "prefix": "C"
+      },
+      {
+        "reference": "C1305",
+        "value": "22u",
+        "prefix": "C"
+      },
+      {
+        "reference": "C405",
+        "value": "10u",
+        "prefix": "C"
+      },
+      {
+        "reference": "NT906",
+        "value": "NetTie_2",
+        "prefix": "NT"
+      },
+      {
+        "reference": "Q1002",
+        "value": "2N7002",
+        "prefix": "Q"
+      },
+      {
+        "reference": "R203",
+        "value": "0R",
+        "prefix": "R"
+      },
+      {
+        "reference": "R306",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R1304",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R904",
+        "value": "0R",
+        "prefix": "R"
+      },
+      {
+        "reference": "C1304",
+        "value": "22u",
+        "prefix": "C"
+      },
+      {
+        "reference": "R806",
+        "value": "0R",
+        "prefix": "R"
+      },
+      {
+        "reference": "C818",
+        "value": "1u",
+        "prefix": "C"
+      },
+      {
+        "reference": "C810",
+        "value": "1u",
+        "prefix": "C"
+      },
+      {
+        "reference": "NT903",
+        "value": "NetTie_2",
+        "prefix": "NT"
+      },
+      {
+        "reference": "NT909",
+        "value": "NetTie_2",
+        "prefix": "NT"
+      },
+      {
+        "reference": "R1012",
+        "value": "33R",
+        "prefix": "R"
+      },
+      {
+        "reference": "Q1301",
+        "value": "AO3401A",
+        "prefix": "Q"
+      },
+      {
+        "reference": "C302",
+        "value": "10u",
+        "prefix": "C"
+      },
+      {
+        "reference": "Q1003",
+        "value": "SS8050",
+        "prefix": "Q"
+      },
+      {
+        "reference": "C1306",
+        "value": "10u",
+        "prefix": "C"
+      },
+      {
+        "reference": "C1307",
+        "value": "10u",
+        "prefix": "C"
+      },
+      {
+        "reference": "D1301",
+        "value": "ZMM5V6",
+        "prefix": "D"
+      },
+      {
+        "reference": "R903",
+        "value": "0R",
+        "prefix": "R"
+      },
+      {
+        "reference": "R307",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "C812",
+        "value": "47p",
+        "prefix": "C"
+      },
+      {
+        "reference": "C903",
+        "value": "DNF",
+        "prefix": "C"
+      },
+      {
+        "reference": "R204",
+        "value": "0R",
+        "prefix": "R"
+      },
+      {
+        "reference": "C801",
+        "value": "100u",
+        "prefix": "C"
+      },
+      {
+        "reference": "JP1202",
+        "value": "Bridge",
+        "prefix": "JP"
+      },
+      {
+        "reference": "R805",
+        "value": "0R",
+        "prefix": "R"
+      },
+      {
+        "reference": "NT901",
+        "value": "NetTie_2",
+        "prefix": "NT"
+      },
+      {
+        "reference": "R906",
+        "value": "0R",
+        "prefix": "R"
+      },
+      {
+        "reference": "C1004",
+        "value": "10u",
+        "prefix": "C"
+      },
+      {
+        "reference": "C201",
+        "value": "DNF",
+        "prefix": "C"
+      },
+      {
+        "reference": "C809",
+        "value": "100u",
+        "prefix": "C"
+      },
+      {
+        "reference": "C1101",
+        "value": "10u",
+        "prefix": "C"
+      },
+      {
+        "reference": "R305",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "C807",
+        "value": "10u",
+        "prefix": "C"
+      },
+      {
+        "reference": "C811",
+        "value": "1u",
+        "prefix": "C"
+      },
+      {
+        "reference": "C1201",
+        "value": "10u",
+        "prefix": "C"
+      },
+      {
+        "reference": "NT908",
+        "value": "NetTie_2",
+        "prefix": "NT"
+      },
+      {
+        "reference": "SW1001",
+        "value": "SW_Push",
+        "prefix": "SW"
+      },
+      {
+        "reference": "JP1201",
+        "value": "Bridge",
+        "prefix": "JP"
+      },
+      {
+        "reference": "C906",
+        "value": "DNF",
+        "prefix": "C"
+      },
+      {
+        "reference": "JP401",
+        "value": "Bridge",
+        "prefix": "JP"
+      },
+      {
+        "reference": "R309",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "C813",
+        "value": "47p",
+        "prefix": "C"
+      },
+      {
+        "reference": "C805",
+        "value": "1u",
+        "prefix": "C"
+      },
+      {
+        "reference": "C404",
+        "value": "10u",
+        "prefix": "C"
+      },
+      {
+        "reference": "R901",
+        "value": "0R",
+        "prefix": "R"
+      },
+      {
+        "reference": "R311",
+        "value": "1k",
+        "prefix": "R"
+      },
+      {
+        "reference": "R1008",
+        "value": "300",
+        "prefix": "R"
+      },
+      {
+        "reference": "C902",
+        "value": "DNF",
+        "prefix": "C"
+      },
+      {
+        "reference": "SW1002",
+        "value": "SW_Push",
+        "prefix": "SW"
+      },
+      {
+        "reference": "C904",
+        "value": "DNF",
+        "prefix": "C"
+      },
+      {
+        "reference": "R303",
+        "value": "10k",
+        "prefix": "R"
+      },
+      {
+        "reference": "C1001",
+        "value": "10u",
+        "prefix": "C"
+      },
+      {
+        "reference": "NT904",
+        "value": "NetTie_2",
+        "prefix": "NT"
+      },
+      {
+        "reference": "JP402",
+        "value": "Bridge",
+        "prefix": "JP"
+      }
+    ]
+  }
+}
