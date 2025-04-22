@@ -6,29 +6,32 @@ This document verifies that the Neotron-Pico microBTX PCB maintains parity with 
 
 ## Verification Process
 
-The schematic parity verification was performed using KiCad's built-in verification tools:
+The schematic parity verification was attempted using KiCad's built-in verification tools:
 
-1. **Netlist Comparison**: The netlists of the original ATX PCB and the converted microBTX PCB were compared to ensure all connections are preserved.
-2. **DRC with Schematic Parity Check**: The Design Rule Check was run with the `--schematic-parity` option to verify that the PCB matches the schematic.
-3. **Component Connection Verification**: Each component's connections were verified to ensure they match the schematic.
+1. **Attempted DRC with Schematic Parity Check**: The Design Rule Check was attempted with the `--schematic-parity` option to verify that the PCB matches the schematic.
+2. **Manual Verification**: Due to limitations in the automated verification, manual verification was performed instead.
+3. **Component Connection Verification**: Each component's connections were manually verified to ensure they match the original design.
 
 ## Verification Results
 
-### Netlist Comparison
+### Automated Verification Limitations
 
-The netlist comparison between the original ATX PCB and the converted microBTX PCB shows:
+When attempting to run the DRC with schematic parity check using KiCad CLI:
 
-- **Total Nets**: 342 (identical in both designs)
-- **Total Components**: 242 (identical in both designs)
-- **Connection Differences**: None
+```
+kicad-cli pcb drc --schematic-parity neotron-pico-btx.kicad_pcb
+```
 
-### DRC with Schematic Parity Check
+The following error was encountered:
 
-The Design Rule Check with schematic parity verification shows:
+```
+Failed to fetch schematic netlist for parity tests.
+Schematic parity tests require a fully annotated schematic.
+```
 
-- **Schematic Parity Errors**: 0
-- **Unconnected Pins**: 0
-- **Unconnected Nets**: 0
+This error occurs because the microBTX PCB file is a modified version of the original PCB and doesn't have a corresponding microBTX schematic file. The conversion process focused on the PCB layout transformation while maintaining the original electrical connections.
+
+### Manual Verification
 
 ### Component Connection Verification
 
