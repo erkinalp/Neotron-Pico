@@ -1,0 +1,105 @@
+{
+  "expansion_slots": [
+    {
+      "name": "Expansion Slot 0",
+      "type": "General-purpose",
+      "verification_rules": {
+        "orientation": "Maintain original orientation (no mirroring)",
+        "position": "Position according to microBTX specifications",
+        "clearance": "Ensure proper clearance for card insertion and removal"
+      }
+    },
+    {
+      "name": "Expansion Slot 1",
+      "type": "General-purpose",
+      "verification_rules": {
+        "orientation": "Maintain original orientation (no mirroring)",
+        "position": "Position according to microBTX specifications",
+        "clearance": "Ensure proper clearance for card insertion and removal"
+      }
+    },
+    {
+      "name": "Expansion Slot 2",
+      "type": "General-purpose",
+      "verification_rules": {
+        "orientation": "Maintain original orientation (no mirroring)",
+        "position": "Position according to microBTX specifications",
+        "clearance": "Ensure proper clearance for card insertion and removal"
+      }
+    },
+    {
+      "name": "Expansion Slot 3",
+      "type": "General-purpose",
+      "verification_rules": {
+        "orientation": "Maintain original orientation (no mirroring)",
+        "position": "Position according to microBTX specifications",
+        "clearance": "Ensure proper clearance for card insertion and removal"
+      }
+    },
+    {
+      "name": "Expansion Slot 4",
+      "type": "General-purpose",
+      "verification_rules": {
+        "orientation": "Maintain original orientation (no mirroring)",
+        "position": "Position according to microBTX specifications",
+        "clearance": "Ensure proper clearance for card insertion and removal"
+      }
+    },
+    {
+      "name": "Expansion Slot 5",
+      "type": "General-purpose",
+      "verification_rules": {
+        "orientation": "Maintain original orientation (no mirroring)",
+        "position": "Position according to microBTX specifications",
+        "clearance": "Ensure proper clearance for card insertion and removal"
+      }
+    }
+  ],
+  "external_connectors": [
+    {
+      "name": "USB",
+      "type": "Peripheral",
+      "verification_rules": {
+        "position": "Position along the edge of the board",
+        "orientation": "Ensure proper orientation for compatibility with external devices",
+        "clearance": "Ensure proper clearance for external access"
+      }
+    },
+    {
+      "name": "VGA",
+      "type": "Display",
+      "verification_rules": {
+        "position": "Position along the edge of the board",
+        "orientation": "Ensure proper orientation for compatibility with external devices",
+        "clearance": "Ensure proper clearance for external access"
+      }
+    },
+    {
+      "name": "Audio",
+      "type": "Input/Output",
+      "verification_rules": {
+        "position": "Position along the edge of the board",
+        "orientation": "Ensure proper orientation for compatibility with external devices",
+        "clearance": "Ensure proper clearance for external access"
+      }
+    },
+    {
+      "name": "Power",
+      "type": "Power",
+      "verification_rules": {
+        "position": "Position along the edge of the board",
+        "orientation": "Ensure proper orientation for compatibility with external devices",
+        "clearance": "Ensure proper clearance for external access"
+      }
+    },
+    {
+      "name": "Serial",
+      "type": "Communication",
+      "verification_rules": {
+        "position": "Position along the edge of the board",
+        "orientation": "Ensure proper orientation for compatibility with external devices",
+        "clearance": "Ensure proper clearance for external access"
+      }
+    }
+  ]
+}

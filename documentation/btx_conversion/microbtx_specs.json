@@ -1,0 +1,28 @@
+{
+  "form_factor": "microBTX",
+  "dimensions": {
+    "width_mm": 264,
+    "height_mm": 267
+  },
+  "mounting_holes": {
+    "positions": [
+      {
+        "x_mm": 111.76,
+        "y_mm": 55.79
+      },
+      {
+        "x_mm": 111.76,
+        "y_mm": 211.21
+      },
+      {
+        "x_mm": 152.24,
+        "y_mm": 55.79
+      },
+      {
+        "x_mm": 152.24,
+        "y_mm": 211.21
+      }
+    ]
+  },
+  "orientation": "mirrored"
+}

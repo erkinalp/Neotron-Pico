@@ -1,0 +1,96 @@
+{
+  "signal_integrity_considerations": [
+    {
+      "name": "High-frequency Traces",
+      "description": "High-frequency traces must be optimized to minimize length and crossings",
+      "validation_rules": {
+        "length": "Minimize length",
+        "crossings": "Minimize crossings",
+        "impedance": "Maintain consistent impedance"
+      }
+    },
+    {
+      "name": "Critical Path Lengths",
+      "description": "Critical path lengths must be maintained to ensure proper timing",
+      "validation_rules": {
+        "length_matching": "Use length matching for critical signals",
+        "skew": "Minimize skew",
+        "timing": "Ensure proper timing"
+      }
+    },
+    {
+      "name": "Signal Crossings",
+      "description": "Signal crossings must be minimized to reduce interference",
+      "validation_rules": {
+        "layer_crossings": "Use vias to cross between layers",
+        "high_frequency_crossings": "Avoid crossing high-frequency signals",
+        "interference": "Minimize interference"
+      }
+    },
+    {
+      "name": "Power Delivery Paths",
+      "description": "Power delivery paths must be verified to ensure proper power distribution",
+      "validation_rules": {
+        "trace_width": "Use appropriate trace width",
+        "length": "Minimize length",
+        "copper_pours": "Use copper pours"
+      }
+    },
+    {
+      "name": "Ground Plane Integrity",
+      "description": "Ground plane integrity must be maintained to ensure proper grounding",
+      "validation_rules": {
+        "ground_plane_cuts": "Minimize ground plane cuts",
+        "stitching_vias": "Use stitching vias",
+        "grounding": "Ensure proper grounding"
+      }
+    }
+  ],
+  "trace_routing_guidelines": [
+    {
+      "name": "Avoid Obscure Trace Shapes",
+      "description": "Use straight lines and 45-degree angles whenever possible",
+      "validation_rules": {
+        "straight_lines": "Use straight lines",
+        "angles": "Use 45-degree angles",
+        "shapes": "Avoid obscure shapes"
+      }
+    },
+    {
+      "name": "Avoid Layer Intersections",
+      "description": "Traces on the same layer should not intersect",
+      "validation_rules": {
+        "intersections": "Avoid intersections",
+        "same_layer": "Traces on the same layer should not intersect",
+        "routing": "Use proper routing"
+      }
+    },
+    {
+      "name": "Use Vias for Layer Crossings",
+      "description": "Use vias to cross between layers",
+      "validation_rules": {
+        "vias": "Use vias",
+        "layer_crossings": "Use vias to cross between layers",
+        "routing": "Use proper routing"
+      }
+    },
+    {
+      "name": "Maintain Trace Width",
+      "description": "Use appropriate trace width for the current carrying capacity",
+      "validation_rules": {
+        "trace_width": "Use appropriate trace width",
+        "current_capacity": "Consider current carrying capacity",
+        "power_delivery": "Ensure proper power delivery"
+      }
+    },
+    {
+      "name": "Maintain Clearance",
+      "description": "Ensure proper clearance between traces",
+      "validation_rules": {
+        "clearance": "Ensure proper clearance",
+        "spacing": "Maintain proper spacing",
+        "interference": "Minimize interference"
+      }
+    }
+  ]
+}

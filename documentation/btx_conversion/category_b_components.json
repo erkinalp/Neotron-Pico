@@ -1,0 +1,66 @@
+{
+  "category": "B",
+  "description": "Mirrorable components",
+  "components": [
+    {
+      "name": "Resistors",
+      "type": "Passive Components",
+      "count": 96,
+      "repositioning_rules": {
+        "mirroring_allowed": true,
+        "rotation_allowed": true,
+        "manufacturing_optimization": true
+      }
+    },
+    {
+      "name": "Capacitors",
+      "type": "Passive Components",
+      "count": 50,
+      "repositioning_rules": {
+        "mirroring_allowed": true,
+        "rotation_allowed": true,
+        "manufacturing_optimization": true
+      }
+    },
+    {
+      "name": "Diodes",
+      "type": "Two-Terminal Components",
+      "count": 2,
+      "repositioning_rules": {
+        "mirroring_allowed": true,
+        "rotation_allowed": true,
+        "manufacturing_optimization": false
+      }
+    },
+    {
+      "name": "LEDs",
+      "type": "Two-Terminal Components",
+      "count": 6,
+      "repositioning_rules": {
+        "mirroring_allowed": true,
+        "rotation_allowed": true,
+        "manufacturing_optimization": false
+      }
+    },
+    {
+      "name": "Inductors",
+      "type": "Passive Components",
+      "count": 3,
+      "repositioning_rules": {
+        "mirroring_allowed": true,
+        "rotation_allowed": true,
+        "manufacturing_optimization": false
+      }
+    },
+    {
+      "name": "Transistors",
+      "type": "Three-Terminal Components",
+      "count": 10,
+      "repositioning_rules": {
+        "mirroring_allowed": true,
+        "rotation_allowed": true,
+        "manufacturing_optimization": false
+      }
+    }
+  ]
+}

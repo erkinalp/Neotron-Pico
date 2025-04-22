@@ -1,0 +1,46 @@
+{
+  "trace_routing_guidelines": {
+    "high_frequency_traces": {
+      "description": "Optimize high-frequency traces to minimize length and crossings",
+      "implementation": "Use shortest path possible, minimize vias, maintain consistent impedance"
+    },
+    "critical_path_lengths": {
+      "description": "Maintain critical path lengths to ensure proper timing",
+      "implementation": "Use length matching for critical signals, minimize skew"
+    },
+    "signal_crossings": {
+      "description": "Minimize signal crossings to reduce interference",
+      "implementation": "Use vias to cross between layers, avoid crossing high-frequency signals"
+    },
+    "power_delivery_paths": {
+      "description": "Verify power delivery paths to ensure proper power distribution",
+      "implementation": "Use appropriate trace width, minimize length, use copper pours"
+    },
+    "ground_plane_integrity": {
+      "description": "Maintain ground plane integrity to ensure proper grounding",
+      "implementation": "Minimize ground plane cuts, use stitching vias"
+    }
+  },
+  "critical_paths": [
+    {
+      "name": "Clock Signals",
+      "description": "Maintain consistent length and minimize crossings",
+      "implementation": "Use length matching, minimize vias, maintain consistent impedance"
+    },
+    {
+      "name": "Data Bus",
+      "description": "Maintain consistent length and minimize crossings",
+      "implementation": "Use length matching, minimize vias, maintain consistent impedance"
+    },
+    {
+      "name": "Power Delivery",
+      "description": "Use appropriate trace width and minimize length",
+      "implementation": "Use appropriate trace width, minimize length, use copper pours"
+    },
+    {
+      "name": "Ground Connections",
+      "description": "Ensure proper grounding for all components",
+      "implementation": "Minimize ground plane cuts, use stitching vias"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "geometric_soundness_considerations": [
+    {
+      "name": "Trace Shapes",
+      "description": "Avoid obscure trace shapes, using straight lines and 45-degree angles whenever possible",
+      "verification_rules": {
+        "straight_lines": "Use straight lines",
+        "angles": "Use 45-degree angles",
+        "shapes": "Avoid obscure shapes"
+      }
+    },
+    {
+      "name": "Component Placement",
+      "description": "Ensure proper component placement and orientation",
+      "verification_rules": {
+        "placement": "Ensure proper placement",
+        "orientation": "Ensure proper orientation",
+        "clearance": "Ensure proper clearance"
+      }
+    },
+    {
+      "name": "Board Outline",
+      "description": "Verify the board outline matches microBTX specifications",
+      "verification_rules": {
+        "dimensions": "Verify dimensions",
+        "shape": "Verify shape",
+        "mounting_holes": "Verify mounting hole positions"
+      }
+    },
+    {
+      "name": "Mounting Holes",
+      "description": "Verify mounting hole positions match microBTX specifications",
+      "verification_rules": {
+        "positions": "Verify positions",
+        "diameter": "Verify diameter",
+        "clearance": "Verify clearance"
+      }
+    },
+    {
+      "name": "Clearance",
+      "description": "Ensure proper clearance between components and traces",
+      "verification_rules": {
+        "component_clearance": "Ensure proper clearance between components",
+        "trace_clearance": "Ensure proper clearance between traces",
+        "edge_clearance": "Ensure proper clearance from board edge"
+      }
+    }
+  ],
+  "layer_intersection_guidelines": [
+    {
+      "name": "Same-Layer Intersections",
+      "description": "Traces on the same layer should not intersect",
+      "verification_rules": {
+        "intersections": "Avoid intersections",
+        "same_layer": "Traces on the same layer should not intersect",
+        "routing": "Use proper routing"
+      }
+    },
+    {
+      "name": "Layer Crossings",
+      "description": "Use vias to cross between layers",
+      "verification_rules": {
+        "vias": "Use vias",
+        "layer_crossings": "Use vias to cross between layers",
+        "routing": "Use proper routing"
+      }
+    },
+    {
+      "name": "Via Placement",
+      "description": "Ensure proper via placement and clearance",
+      "verification_rules": {
+        "placement": "Ensure proper placement",
+        "clearance": "Ensure proper clearance",
+        "size": "Use appropriate size"
+      }
+    },
+    {
+      "name": "Copper Pours",
+      "description": "Verify copper pour connectivity and clearance",
+      "verification_rules": {
+        "connectivity": "Verify connectivity",
+        "clearance": "Verify clearance",
+        "thermal_relief": "Verify thermal relief"
+      }
+    },
+    {
+      "name": "Ground Plane",
+      "description": "Verify ground plane integrity and connectivity",
+      "verification_rules": {
+        "integrity": "Verify integrity",
+        "connectivity": "Verify connectivity",
+        "stitching": "Verify stitching"
+      }
+    }
+  ]
+}

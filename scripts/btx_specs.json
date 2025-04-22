@@ -1,0 +1,37 @@
+{
+  "original_dimensions": {
+    "width": 244,
+    "height": 244
+  },
+  "target_dimensions": {
+    "width": 264,
+    "height": 267
+  },
+  "component_categories": {
+    "A_non_mirrorable": [
+      "Pico",
+      "STM32F0",
+      "MCP23S17",
+      "TLV320AIC23B",
+      "TPD7S019",
+      "THS7316",
+      "74HC138",
+      "DS1307Z+"
+    ],
+    "B_mirrorable": [
+      "Resistor",
+      "Capacitor",
+      "Inductor",
+      "Diode",
+      "LED",
+      "Transistor"
+    ],
+    "C_position_critical": [
+      "DE15HD",
+      "Jack",
+      "SD_Card",
+      "Conn_",
+      "MountingHole"
+    ]
+  }
+}

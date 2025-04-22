@@ -1,0 +1,37 @@
+{
+  "file_path": "/home/ubuntu/repos/Neotron-Pico/Kicad/neotron-pico.kicad_pcb",
+  "file_size": 4366235,
+  "version": "20221018",
+  "generator": "pcbnew",
+  "layers": "(0 \"F.Cu\" signal",
+  "board_dimensions": {
+    "width_mm": 0.00024384,
+    "height_mm": 0.00017145
+  },
+  "component_count": 242,
+  "component_types": {
+    "Symbol": 2,
+    "Neotron-Common-Hardware": 12,
+    "MountingHole": 7,
+    "Capacitor_THT": 5,
+    "Inductor_SMD": 2,
+    "Connector_PinHeader_2.54mm": 15,
+    "Package_TO_SOT_SMD": 10,
+    "Crystal": 2,
+    "Capacitor_SMD": 45,
+    "Resistor_SMD": 96,
+    "neotron-pico": 1,
+    "Connector_BarrelJack": 1,
+    "Package_QFP": 1,
+    "Package_SO": 6,
+    "Inductor_THT": 1,
+    "LED_SMD": 6,
+    "TestPoint": 6,
+    "NetTie": 12,
+    "Jumper": 6,
+    "Connector_PinSocket_2.54mm": 2,
+    "Diode_SMD": 2,
+    "Button_Switch_THT": 2
+  },
+  "edge_cuts_count": 5
+}

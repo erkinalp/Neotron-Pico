@@ -1,0 +1,51 @@
+{
+  "category": "A",
+  "description": "Non-mirrorable components",
+  "components": [
+    {
+      "name": "Raspberry Pi Pico",
+      "type": "Processor Module",
+      "repositioning_rules": {
+        "mirroring_allowed": false,
+        "rotation_allowed": true,
+        "srm_placement": true
+      }
+    },
+    {
+      "name": "STM32F0",
+      "type": "Microcontroller",
+      "repositioning_rules": {
+        "mirroring_allowed": false,
+        "rotation_allowed": true,
+        "srm_placement": false
+      }
+    },
+    {
+      "name": "MCP23S17",
+      "type": "I/O Expander",
+      "repositioning_rules": {
+        "mirroring_allowed": false,
+        "rotation_allowed": true,
+        "srm_placement": false
+      }
+    },
+    {
+      "name": "TLV320AIC23B",
+      "type": "Audio Codec",
+      "repositioning_rules": {
+        "mirroring_allowed": false,
+        "rotation_allowed": true,
+        "srm_placement": false
+      }
+    },
+    {
+      "name": "Expansion Slots",
+      "type": "Expansion Slots",
+      "repositioning_rules": {
+        "mirroring_allowed": false,
+        "rotation_allowed": false,
+        "srm_placement": false
+      }
+    }
+  ]
+}

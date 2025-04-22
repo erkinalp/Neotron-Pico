@@ -1,0 +1,119 @@
+{
+  "microbtx_specifications": {
+    "board_dimensions": {
+      "width_mm": 264,
+      "height_mm": 267
+    },
+    "mounting_holes": [
+      {
+        "x_mm": 111.76,
+        "y_mm": 55.79
+      },
+      {
+        "x_mm": 111.76,
+        "y_mm": 211.21
+      },
+      {
+        "x_mm": 152.24,
+        "y_mm": 55.79
+      },
+      {
+        "x_mm": 152.24,
+        "y_mm": 211.21
+      }
+    ],
+    "external_connectors": {
+      "position": "Edge of board",
+      "orientation": "Outward-facing",
+      "clearance": "Sufficient for external access"
+    },
+    "thermal_solution_attachment_points": {
+      "position": "Within SRM region",
+      "orientation": "According to microBTX specifications",
+      "clearance": "Sufficient for thermal solution"
+    }
+  },
+  "component_classification": {
+    "category_a": {
+      "description": "Non-mirrorable components",
+      "examples": [
+        "Raspberry Pi Pico",
+        "STM32F0",
+        "MCP23S17",
+        "TLV320AIC23B",
+        "Expansion slots"
+      ],
+      "rules": {
+        "mirroring_allowed": false,
+        "rotation_allowed": true,
+        "repositioning_allowed": true
+      }
+    },
+    "category_b": {
+      "description": "Mirrorable components",
+      "examples": [
+        "Resistors",
+        "Capacitors",
+        "Diodes",
+        "LEDs",
+        "Transistors",
+        "Power regulation components"
+      ],
+      "rules": {
+        "mirroring_allowed": true,
+        "rotation_allowed": true,
+        "repositioning_allowed": true
+      }
+    },
+    "category_c": {
+      "description": "Position-critical components",
+      "examples": [
+        "USB connectors",
+        "VGA connector",
+        "Audio connectors",
+        "Power connector",
+        "Serial connector",
+        "Mounting holes",
+        "Thermal solution attachment points"
+      ],
+      "rules": {
+        "mirroring_allowed": false,
+        "rotation_allowed": false,
+        "repositioning_allowed": true,
+        "position_critical": true
+      }
+    }
+  },
+  "verification_checklist": [
+    {
+      "name": "Board Dimensions",
+      "description": "Verify board dimensions match microBTX specifications (264 × 267 mm)",
+      "verification_method": "Use KiCad's 3D viewer to verify board dimensions"
+    },
+    {
+      "name": "Mounting Hole Positions",
+      "description": "Verify mounting hole positions match microBTX specifications",
+      "verification_method": "Use KiCad's 3D viewer to verify mounting hole positions"
+    },
+    {
+      "name": "Component Orientations",
+      "description": "Verify component orientations are correct per category",
+      "verification_method": "Use KiCad's 3D viewer to verify component orientations"
+    },
+    {
+      "name": "Expansion Slot Orientation",
+      "description": "Verify expansion slots are properly oriented",
+      "verification_method": "Use KiCad's 3D viewer to verify expansion slot orientation"
+    },
+    {
+      "name": "External Connector Accessibility",
+      "description": "Verify external connectors are accessible",
+      "verification_method": "Use KiCad's 3D viewer to verify external connector accessibility"
+    },
+    {
+      "name": "Thermal Solution Attachment Points",
+      "description": "Verify thermal solution attachment points are positioned within the SRM region",
+      "verification_method": "Use KiCad's 3D viewer to verify thermal solution attachment points"
+    }
+  ]
+}

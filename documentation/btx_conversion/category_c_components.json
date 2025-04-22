@@ -1,0 +1,68 @@
+{
+  "category": "C",
+  "description": "Position-critical components",
+  "components": [
+    {
+      "name": "External Connectors",
+      "type": "Connectors",
+      "repositioning_rules": {
+        "mirroring_allowed": false,
+        "rotation_allowed": false,
+        "position_critical": true,
+        "edge_placement": true
+      },
+      "microbtx_specifications": {
+        "position": "Edge of board",
+        "orientation": "Outward-facing",
+        "clearance": "Sufficient for external access"
+      }
+    },
+    {
+      "name": "Mounting Holes",
+      "type": "Mechanical",
+      "repositioning_rules": {
+        "mirroring_allowed": false,
+        "rotation_allowed": false,
+        "position_critical": true,
+        "edge_placement": false
+      },
+      "microbtx_specifications": {
+        "positions": [
+          {
+            "x_mm": 111.76,
+            "y_mm": 55.79
+          },
+          {
+            "x_mm": 111.76,
+            "y_mm": 211.21
+          },
+          {
+            "x_mm": 152.24,
+            "y_mm": 55.79
+          },
+          {
+            "x_mm": 152.24,
+            "y_mm": 211.21
+          }
+        ],
+        "diameter": "3.2 mm",
+        "clearance": "Sufficient for mounting hardware"
+      }
+    },
+    {
+      "name": "Thermal Solution Attachment Points",
+      "type": "Mechanical",
+      "repositioning_rules": {
+        "mirroring_allowed": false,
+        "rotation_allowed": false,
+        "position_critical": true,
+        "edge_placement": false
+      },
+      "microbtx_specifications": {
+        "position": "Within SRM region",
+        "orientation": "According to microBTX specifications",
+        "clearance": "Sufficient for thermal solution"
+      }
+    }
+  ]
+}
