@@ -63,12 +63,12 @@ The Neotron-Pico PCB includes the following external connectors:
 
 ## Verification Checklist
 
-- [ ] Expansion slots are properly oriented
-- [ ] Expansion slots are positioned according to microBTX specifications
-- [ ] Expansion slots have proper clearance for card insertion and removal
-- [ ] External connectors are positioned along the edge of the board
-- [ ] External connectors are properly oriented
-- [ ] External connectors have proper clearance for external access
+- [x] Expansion slots are properly oriented
+- [x] Expansion slots are positioned according to microBTX specifications
+- [x] Expansion slots have proper clearance for card insertion and removal
+- [x] External connectors are positioned along the edge of the board
+- [x] External connectors are properly oriented
+- [x] External connectors have proper clearance for external access
 
 ## Next Steps
 

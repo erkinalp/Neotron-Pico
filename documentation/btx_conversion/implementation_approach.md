@@ -83,6 +83,6 @@ The current implementation status is:
 - [x] KiCad installation and verification
 - [x] Component classification
 - [x] BTX specifications documentation
-- [ ] PCB conversion implementation
-- [ ] Verification against BTX specifications
-- [ ] Documentation of conversion process
+- [x] PCB conversion implementation
+- [x] Verification against BTX specifications
+- [x] Documentation of conversion process
