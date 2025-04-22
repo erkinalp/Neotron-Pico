@@ -5,7 +5,7 @@
     (comment 1 "Converted to microBTX form factor")
   (comment 2 "Original ATX design by Jonathan Pallant")
   (comment 3 "microBTX conversion by Devin AI")
-  (comment 4 "Conversion date: $(date +%Y-%m-%d)")
+  (comment 4 "Conversion date: 2025-04-22")
 )
 
   (paper "A3")
