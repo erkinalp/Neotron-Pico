@@ -1,0 +1,11 @@
+{
+  "mounting_holes": [
+    {"reference": "H101", "x": 6.35, "y": 6.35, "diameter": 3.5, "drill": 3.0, "layer": "F_Cu"},
+    {"reference": "H102", "x": 6.35, "y": 260.65, "diameter": 3.5, "drill": 3.0, "layer": "F_Cu"},
+    {"reference": "H103", "x": 257.65, "y": 6.35, "diameter": 3.5, "drill": 3.0, "layer": "F_Cu"},
+    {"reference": "H104", "x": 257.65, "y": 260.65, "diameter": 3.5, "drill": 3.0, "layer": "F_Cu"},
+    {"reference": "H105", "x": 132.0, "y": 6.35, "diameter": 3.5, "drill": 3.0, "layer": "F_Cu"},
+    {"reference": "H106", "x": 132.0, "y": 260.65, "diameter": 3.5, "drill": 3.0, "layer": "F_Cu"},
+    {"reference": "H107", "x": 132.0, "y": 133.5, "diameter": 3.5, "drill": 3.0, "layer": "F_Cu"}
+  ]
+}
