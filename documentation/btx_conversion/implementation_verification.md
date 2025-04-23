@@ -53,7 +53,8 @@ This document verifies the implementation of the Neotron-Pico microBTX conversio
 
 ### Layout Verification
 - [x] Board dimensions match microBTX specifications (264mm x 267mm)
-- [x] Mounting hole positions match microBTX specifications
+- [x] Perimeter mounting hole positions match microBTX specifications (5 holes)
+- [x] SRM mounting holes are properly positioned (4 holes)
 - [x] Component orientations are correct per category
 - [x] Expansion slots are properly oriented
 - [x] External connectors are accessible

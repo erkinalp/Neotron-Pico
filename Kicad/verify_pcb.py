@@ -41,10 +41,10 @@ def verify_pcb_layout():
     
     print(f"Found {len(mounting_holes)} mounting holes")
     
-    expected_holes = 5
+    expected_holes = 9  # 5 standard + 4 SRM mounting holes
     
     if len(mounting_holes) == expected_holes:
-        print("✓ Correct number of mounting holes for microBTX")
+        print("✓ Correct number of mounting holes for microBTX (5 standard + 4 SRM)")
     else:
         print(f"✗ Incorrect number of mounting holes: {len(mounting_holes)} (expected {expected_holes})")
     
